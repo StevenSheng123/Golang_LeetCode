@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 设置节点的结构体
 type Node struct {
 	Value int
@@ -47,13 +45,13 @@ func DeleteByVal(L *LinkList, val int) {
 	}
 }
 
-func PrintList(L *LinkList) {
-	p := L.Head.Next
-	for p != nil {
-		fmt.Println(p.Value)
-		p = p.Next
-	}
-}
+//func PrintList(L *LinkList) {
+//	p := L.Head.Next
+//	for p != nil {
+//		fmt.Println(p.Value)
+//		p = p.Next
+//	}
+//}
 
 func main() {
 	L := NewLinkList()
