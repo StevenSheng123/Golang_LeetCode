@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 func search(nums []int, target int) int {
 	left := 0
 	right := len(nums) - 1
@@ -20,8 +16,8 @@ func search(nums []int, target int) int {
 	return -1
 }
 
-func main() {
-	nums := []int{-1, 0, 3, 5, 9, 12}
-	target := 3
-	fmt.Println(search(nums, target))
-}
+//func main() {
+//	nums := []int{-1, 0, 3, 5, 9, 12}
+//	target := 3
+//	fmt.Println(search(nums, target))
+//}

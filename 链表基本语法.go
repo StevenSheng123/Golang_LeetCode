@@ -53,14 +53,14 @@ func DeleteByVal(L *LinkList, val int) {
 //	}
 //}
 
-func main() {
-	L := NewLinkList()
-	list := []int{1, 2, 6, 3, 4, 5, 6}
-
-	for _, val := range list {
-		TailInsert(L, val)
-	}
-	PrintList(L)
-	DeleteByVal(L, 6)
-	PrintList(L)
-}
+//func main() {
+//	L := NewLinkList()
+//	list := []int{1, 2, 6, 3, 4, 5, 6}
+//
+//	for _, val := range list {
+//		TailInsert(L, val)
+//	}
+//	PrintList(L)
+//	DeleteByVal(L, 6)
+//	PrintList(L)
+//}

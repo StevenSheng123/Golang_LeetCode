@@ -40,8 +40,9 @@ func Pr1ntList(head *L2stNode) {
 	}
 	fmt.Println()
 }
-func main() {
-	L := Cr1ateList([]int{1, 2, 3, 4})
-	L = SwapPairs(L)
-	Pr1ntList(L)
-}
+
+//func main() {
+//	L := Cr1ateList([]int{1, 2, 3, 4})
+//	L = SwapPairs(L)
+//	Pr1ntList(L)
+//}

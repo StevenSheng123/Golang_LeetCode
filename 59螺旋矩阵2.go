@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func generateMatrix(n int) [][]int {
 	matrix := make([][]int, n)
 	for x := range matrix {
@@ -156,10 +154,11 @@ func generateMatrix(n int) [][]int {
 	}
 	return matrix
 }
-func main() {
-	n := 4
-	for _, val := range generateMatrix(n) {
-		fmt.Println(val)
-	}
-	//fmt.Println(generateMatrix(n))
-}
+
+//func main() {
+//	n := 4
+//	for _, val := range generateMatrix(n) {
+//		fmt.Println(val)
+//	}
+//	//fmt.Println(generateMatrix(n))
+//}

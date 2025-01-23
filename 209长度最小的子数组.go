@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 //暴力双循环
 //func minSubArrayLen(nums []int, target int) int {
 //	count := []int{}
@@ -46,7 +42,7 @@ func minSubArrayLen(target int, nums []int) int {
 	}
 }
 
-func main() {
-	nums := []int{2, 3, 1, 2, 4, 3}
-	fmt.Println(minSubArrayLen(7, nums))
-}
+//func main() {
+//	nums := []int{2, 3, 1, 2, 4, 3}
+//	fmt.Println(minSubArrayLen(7, nums))
+//}

@@ -44,10 +44,10 @@ func PrintList(head *ListNode) {
 	fmt.Println()
 }
 
-func main() {
-	// 创建链表并打印
-	values := []int{1, 2, 6, 3, 4, 5, 6}
-	head := CreateList(values) // 使用输入数组创建链表
-	RemoveElements(head, 6)
-	PrintList(head) // 打印链表
-}
+//func main() {
+//	// 创建链表并打印
+//	values := []int{1, 2, 6, 3, 4, 5, 6}
+//	head := CreateList(values) // 使用输入数组创建链表
+//	RemoveElements(head, 6)
+//	PrintList(head) // 打印链表
+//}

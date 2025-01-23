@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func removeElement(nums []int, target int) ([]int, int) {
 	slowIndex := 0
 	for fastIndex := 0; fastIndex < len(nums); fastIndex++ {
@@ -12,8 +10,9 @@ func removeElement(nums []int, target int) ([]int, int) {
 	}
 	return nums[:slowIndex], slowIndex
 }
-func main() {
-	nums := []int{3, 2, 2, 3}
-	target := 2
-	fmt.Println(removeElement(nums, target))
-}
+
+//func main() {
+//	nums := []int{3, 2, 2, 3}
+//	target := 2
+//	fmt.Println(removeElement(nums, target))
+//}

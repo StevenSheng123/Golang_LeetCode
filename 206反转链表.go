@@ -48,18 +48,18 @@ func reverseList(head *L1stNode) *L1stNode {
 	return pre
 }
 
-func main() {
-	// Create a linked list 1 -> 2 -> 3 -> 4 -> 5
-	head := createLinkedList([]int{1, 2, 3, 4, 5})
-
-	// Print original linked list
-	fmt.Print("Original list: ")
-	printLinkedList(head)
-
-	// Reverse the linked list
-	reversedHead := reverseList(head)
-
-	// Print reversed linked list
-	fmt.Print("Reversed list: ")
-	printLinkedList(reversedHead)
-}
+//func main() {
+//	// Create a linked list 1 -> 2 -> 3 -> 4 -> 5
+//	head := createLinkedList([]int{1, 2, 3, 4, 5})
+//
+//	// Print original linked list
+//	fmt.Print("Original list: ")
+//	printLinkedList(head)
+//
+//	// Reverse the linked list
+//	reversedHead := reverseList(head)
+//
+//	// Print reversed linked list
+//	fmt.Print("Reversed list: ")
+//	printLinkedList(reversedHead)
+//}

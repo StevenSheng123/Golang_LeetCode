@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 func sortedSquares(nums []int) []int {
 	ans := make([]int, len(nums))
 	i, j, k := 0, len(nums)-1, len(nums)-1
@@ -20,7 +16,8 @@ func sortedSquares(nums []int) []int {
 	}
 	return ans
 }
-func main() {
-	nums := []int{-4, -1, 0, 3, 10}
-	fmt.Println(sortedSquares(nums))
-}
+
+//func main() {
+//	nums := []int{-4, -1, 0, 3, 10}
+//	fmt.Println(sortedSquares(nums))
+//}
