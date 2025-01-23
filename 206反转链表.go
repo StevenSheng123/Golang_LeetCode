@@ -11,19 +11,19 @@ type L1stNode struct {
 }
 
 // Function to create a new linked list
-func createLinkedList(values []int) *L1stNode {
-	if len(values) == 0 {
-		return nil
-	}
-
-	head := &L1stNode{Val: values[0]}
-	current := head
-	for _, value := range values[1:] {
-		current.Next = &L1stNode{Val: value}
-		current = current.Next
-	}
-	return head
-}
+//func createLinkedList(values []int) *L1stNode {
+//	if len(values) == 0 {
+//		return nil
+//	}
+//
+//	head := &L1stNode{Val: values[0]}
+//	current := head
+//	for _, value := range values[1:] {
+//		current.Next = &L1stNode{Val: value}
+//		current = current.Next
+//	}
+//	return head
+//}
 
 // Function to print the linked list
 func printLinkedList(head *L1stNode) {
